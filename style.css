@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1d1b1b;
+    padding: 40px 120px 40px 120px;
+    text-align: center;
+}
+
+header div ul span {
+    margin-right: 30px;
+    color: white;
+    font-size: larger;
+}
