@@ -1,11 +1,444 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Personal-Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+     <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--ion icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
+
 <body>
-    
+    <header id="header">
+        <div class="header-container">
+            <ul>
+                <span><a href= "#home">Home</a></span>
+                <span><a href="#about">About Me</a></span>
+                <span><a href="#project">Projects</a></span>
+                <span><a href="#skills">Skills</a></span>
+                <span><a href="#contactme">Contact Me</a></span>
+            </ul>
+
+            <div class="search">
+                <ion-icon name="search-outline"></ion-icon> <span><input type="text" placeholder="Search"></span>
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+    <section class="video-section" id="home">
+        <div class="video-section-container">
+            <div class="performat-banner">
+                Performed At   <img src="Images/Vector.png" alt="icon">
+                <a href="#"><u>View More</u></a>
+            </div>
+            <div class="video-clip">
+                <video autoplay loop >
+                 <source src="Images/introVideo.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="intro-section" id="about">
+        <div class="intro">
+            <div class="my-intro">
+                <h1>FullStack Developer</h1>
+                <h3>Anushka Keni</h3>
+                <p>Short Description about you and your work <br>
+                    cdsioch difhefnhfnsahvisdhvidahvidhvkvkasvashnaav <br>
+                    oaihfiofhqoifhwqofhqhnc <br>
+                    lakcihcshcahcdahaiaubfi</p>
+
+                <div class=" resume-button">
+                    <button class=>Download Resume</button>
+                    <button class="mywork-button" onclick="myWork()">See My Work</button>
+                </div>
+            </div>
+
+            <div class="profile-image">
+                <img src="Images/Anushka_profile.png" alt="Profile Image">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="suitability-section">
+        <div class="suitable-box">
+            <div class="suitablefor-box">
+                <h2>I'm Suitable For</h2>
+                <div class="underline"></div>
+                <div class="roles">
+                    <span>Frontend Developer</span>
+                    <span>Backend Developer</span>
+                    <span>Software Architect</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="expertise-section">
+        <h2>Expertise</h2>
+        <div class=" expertise-box">
+            <div class="backend-image">
+                <img src="Images/backend.png" alt="Backend-Development image">
+            </div>
+            <div class="backend-content">
+                <h3>Backend Development</h3>
+                <p>Short Description About Your Work And Why you <br> are expert.</p>
+                <p>hjaGrcK;BUTA;RKIUFHXGF;KAJUSG;BKVJTHG;LAKSJ <br>JDHF;KCJ</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="techskills-section" id="skills">
+        <h2>Tech Skills</h2>
+        <div class="tech-skills-box">
+
+            <div class="tech-skills-list">
+
+                <div class="tech-skills-icon">
+                    <img src="Images/vscode_icon.jpg" alt="vscode icon">
+                    <p>VSCODE</p>
+                </div>
+
+                <div class="tech-skills-icon">
+                    <img src="Images/git_icon.jpg" alt="git icon">
+                    <p>GIT</p>
+                </div>
+
+                <div class="tech-skills-icon">
+                    <img src="Images/chromeDevTool.png" alt="chrome dev tool icon">
+                    <p>CHROME DEV TOOLS</p>
+                </div>
+
+                <div class="tech-skills-icon">
+                    <img src="Images/npm_icon.jpg" alt="npm icon">
+                    <p>NPM</p>
+                </div>
+
+                <div class="tech-skills-icon">
+                    <img src="Images/mongodb_icon.jpg" alt="mongodb icon">
+                    <p>MongoDB</p>
+                </div>
+
+                <div class="tech-skills-icon">
+                    <img src="Images/reactJS_icon.jpg" alt="reactJS icon">
+                    <p>React</p>
+                </div>
+
+                <div class="tech-skills-icon">
+                    <img src="Images/redux_icon.jpg" alt="redux icon">
+                    <p>Redux</p>
+                </div>
+
+                <div class="tech-skills-icon">
+                    <img src="Images/spring-boot_icon.jpg" alt="spring-boot icon">
+                    <p>Spring Boot</p>
+                </div>
+
+                <div class="tech-skills-icon">
+                    <img src="Images/angular_icon.jpg" alt="angular icon">
+                    <p>Angular</p>
+                </div>
+
+                <div class="tech-skills-icon">
+                    <img src="Images/postman_icon.jpg" alt="postman icon">
+                    <p>Postman</p>
+                </div>
+
+                <div class="tech-skills-icon">
+                    <img src="Images/python_icon.jpg" alt="python icon">
+                    <p>Python</p>
+                </div>
+
+                <div class="tech-skills-icon">
+                    <img src="Images/mysql_icon.jpg" alt="mysql icon">
+                    <p>MySql</p>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="softskills-section">
+        <h2>Soft Skills</h2>
+        <div class="soft-skills-box">
+            <div class="soft-skills-list">
+                <div>
+                    <img src="Images/timeManagement-icon.png" alt="time management">
+                    <p> Time <br>Management </p>
+                </div>
+
+                <div>
+                    <img src="Images/problemSolving-icon.png" alt="problem solving">
+                    <p>Problem<br> Solving</p>
+                </div>
+                <div>
+                    <img src="Images/excellentLeader-icon.png" alt="excellent team lead">
+                    <p>Excellent<br> Team Lead</p>
+                </div>
+                <div>
+                    <img src="Images/applicationDevelopment-icon.png" alt="application development">
+                    <p>Application <br>Development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="project-section" id="project">
+        <h2>Projects</h2>
+        <div class="project-box ">
+            <div class="project-list" id="project-list">
+                <!-- card 1 -->
+                <div class="project-card">
+                    <img src="Images/project1.png" alt="Project Image">
+                    <h3>Project Name</h3>
+                    <p>Project Description <br>
+                        dsaeibdfiwhnksnkbkdjkicd<br>
+                        hcbdksbfkjbbdjkbskjdbkj</p>
+                    <button>View Project</button>
+                </div>
+
+                <!-- card 2 -->
+                <div class="project-card">
+                    <img src="Images/project2.png" alt="Project Image">
+                    <h3>Project Name</h3>
+                    <p>Project Description <br>
+                        dsaeibdfiwhnksnkbkdjkicd<br>
+                        hcbdksbfkjbbdjkbskjdbkj</p>
+                    <button>View Project</button>
+                </div>
+
+                <!-- card 3 -->
+                <div class="project-card">
+                    <img src="Images/project3.png" alt="Project Image">
+                    <h3>Project Name</h3>
+                    <p>Project Description <br>
+                        dsaeibdfiwhnksnkbkdjkicd<br>
+                        hcbdksbfkjbbdjkbskjdbkj</p>
+                    <button>View Project</button>
+                </div>
+
+                <!-- card 4 -->
+                <div class="project-card">
+                    <img src="Images/project4.jpg" alt="Project Image">
+                    <h3>Project Name</h3>
+                    <p>Project Description <br>
+                        dsaeibdfiwhnksnkbkdjkicd<br>
+                        hcbdksbfkjbbdjkbskjdbkj</p>
+                    <button>View Project</button>
+                </div>
+
+                <!-- card 5 -->
+                <div class="project-card">
+                    <img src="Images/project5.jpg" alt="Project Image">
+                    <h3>Project Name</h3>
+                    <p>Project Description <br>
+                        dsaeibdfiwhnksnkbkdjkicd<br>
+                        hcbdksbfkjbbdjkbskjdbkj</p>
+                    <button>View Project</button>
+                </div>
+
+            </div>
+
+            <div class="projectsliding-button">
+                <button id="leftArrow"> < </button>
+                 <button id="rightArrow"> > </button>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- experince-section -->
+
+    <section class="experience-section">
+        <h2>Experience</h2>
+        <div class="experience-box">
+            <!-- Card 1 -->
+            <div class="experience-card">
+                <div class="company-logo">
+                    <div>
+                        <img src="Images/google-icon.png" alt="Google Logo">
+                    </div>
+                    <div>
+                        <button>Know More</button>
+                    </div>
+                </div>
+
+                <div class="company">
+                    <h3>Company Name</h3>
+                    <h5>Month 20XX - Month 20XX</h5>
+                    <p>Job Description <br>
+                        ahdiudhqiwefhiqfiqfhifhiqwhbibciacaicni</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="experience-card">
+                <div class="company-logo">
+                    <div>
+                        <img src="Images/google-icon.png" alt="Google Logo">
+                    </div>
+                    <div>
+                        <button>Know More</button>
+                    </div>
+                </div>
+
+                <div class="company">
+                    <h3>Company Name</h3>
+                    <h5>Month 20XX - Month 20XX</h5>
+                    <p>Job Description <br>
+                        ahdiudhqiwefhiqfiqfhifhiqwhbibciacaicni</p>
+                </div>
+            </div>
+
+
+            <!-- <div class="experience-card">
+                <img src="Images/google-icon.png" alt="Google Logo">
+                <h3>Company Name</h3>
+                <p>Month 20XX - Month 20XX</p>
+                <p>Job Description</p>
+
+                <button>Know More</button>
+            </div> -->
+        </div>
+    </section>
+
+
+
+
+
+    <section class="qualification-section">
+        <h2>Qualifications</h2>
+        <div class="qualification-box">
+
+            <!-- qualification-level -->
+            <div class="qualification-level">
+                <div class="qualification-levels">
+                    <span class="dot"></span>
+                    <div class="qualification-content">
+                        <h4>SSc</h4><br>
+                        <p>XYZ School, 20xx-20xx</p>
+                    </div>
+                </div>
+
+
+                <div class="line"></div>
+
+
+                <div class="qualification-levels">
+                    <span class="dot"></span>
+                    <div class="qualification-content">
+                        <h4>HSc</h4><br>
+                        <p>XYZ College, 20xx-20xx</p>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+
+                <div class="qualification-levels">
+                    <span class="dot"></span>
+                    <div class="qualification-content">
+                        <h4>Bachelors</h4><br>
+                        <p>XYZ College, 20xx-20xx</p>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+
+                <div class="qualification-levels">
+                    <span class="dot"></span>
+                    <div class="qualification-content">
+                        <h4>Masters</h4><br>
+                        <p>XYZ College, 20xx-20xx</p>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="qualification-levels">
+                    <span class="dot"></span>
+                    <div class="qualification-content">
+                        <h4>Training Certificate</h4><br>
+                        <p>XYZ Institute, 20xx-20xx</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- qualification description -->
+            <div class="qualification-description">
+                <img src="Images/manGraduate.png" alt="Graduation Image">
+                <p>Some Experience or Achievement</p>
+                <p>JBCM SJCSJVSJJ jhvdjsvjcssdkbisubai ds igabgub<br>
+                    aksjg ksdj gf dsk fask adjj<br>
+                    gadjga cu gjgufugsfjgugugarh </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <footer id="footer">
+
+        <div class="footer-box" id="contactme">
+            <div class="footer-image">
+                <img src="images/Anushka_profile.png" alt="Profile image">
+            </div>
+
+            <div class="footer-content">
+                <h4>Anushka Keni</h4>
+                <div class="content-detail">
+                    <ion-icon name="mail-outline"></ion-icon><span>kenianushka@gmail.com</span> 
+                </div>
+                <div class="content-detail">
+                    <ion-icon name="call-outline"></ion-icon><span>9867790416</span>
+                </div>
+            </div>
+
+            <div class="footer-button">
+                <button>ContactMe</button>
+            </div>
+
+        </div>
+
+
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
