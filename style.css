@@ -376,7 +376,7 @@ header div ul span {
 
 /* tech skills section */
 .techskills-section {
-    padding-left: 120px;
+    /* padding-left: 120px; */
     /* padding-right: 120px; */
     font-family: "Lato", serif;
 }
@@ -384,6 +384,7 @@ header div ul span {
 .techskills-section h2 {
     /* padding-top: 70px;
     padding-bottom: 30px; */
+    padding-left: 120px;
     margin-top: 70px;
     margin-bottom: 70px;
 }
@@ -391,10 +392,13 @@ header div ul span {
 .tech-skills-box {
     display: flex;
     width: 100%;
+    padding-left: 120px;
     gap: 3px;
     scroll-behavior: smooth;
     scrollbar-width: none;
-    overflow-x: auto;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-padding-inline-start: 120px;
     white-space: nowrap;
 }
 
@@ -486,13 +490,19 @@ header div ul span {
 .project-list {
     display: flex;
     gap: 20px;
+    padding-left: 120px;
     /* align-items: center; */
     /* flex-wrap: wrap; */
     justify-content: space-between;
     scroll-behavior: smooth;
     scrollbar-width: none;
-    overflow-x: auto;
-    /* overflow-x: hidden; */
+    overflow-x: scroll;
+    /* overflow-y: hidden; */
+
+    /* scroll-snap-type: x;
+    scroll-margin-inline-start: 50px; */
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline-start: 120px;
 
     white-space: nowrap;
 }
@@ -506,6 +516,7 @@ header div ul span {
     text-align: left;
     margin-left: 10px;
     background-color: #fffbfb;
+    scroll-snap-align: none start;
    
 
 }
