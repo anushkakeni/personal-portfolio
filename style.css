@@ -376,15 +376,14 @@ header div ul span {
 
 /* tech skills section */
 .techskills-section {
-    /* padding-left: 120px; */
-    /* padding-right: 120px; */
+    padding-left: 120px; 
+     padding-right: 120px;
     font-family: "Lato", serif;
 }
-
 .techskills-section h2 {
     /* padding-top: 70px;
     padding-bottom: 30px; */
-    padding-left: 120px;
+    /* padding-left: 120px; */
     margin-top: 70px;
     margin-bottom: 70px;
 }
@@ -392,13 +391,13 @@ header div ul span {
 .tech-skills-box {
     display: flex;
     width: 100%;
-    padding-left: 120px;
     gap: 3px;
     scroll-behavior: smooth;
     scrollbar-width: none;
     overflow-x: scroll;
     scrollbar-width: none;
     scroll-padding-inline-start: 120px;
+    scroll-padding-inline-end: 120px;
     white-space: nowrap;
 }
 
@@ -467,15 +466,16 @@ header div ul span {
 
 
 /* project-section */
-.project-section {
-    /* padding-left: 120px; */
-    /* padding-right: 120px; */
-}
+
+/* .project-section {
+   padding-left: 120px; 
+ padding-right: 120px; 
+} */
 
 .project-section h2 {
     /* padding-top: 50px;
     padding-bottom: 30px; */
-    padding-left: 120px;
+    padding-left: 120px; 
     margin-top: 70px;
     margin-bottom: 60px;
 }
@@ -490,20 +490,19 @@ header div ul span {
 .project-list {
     display: flex;
     gap: 20px;
-    padding-left: 120px;
+    padding-left: 120px; 
+    padding-right: 120px;
+   
     /* align-items: center; */
     /* flex-wrap: wrap; */
     justify-content: space-between;
     scroll-behavior: smooth;
     scrollbar-width: none;
     overflow-x: scroll;
-    /* overflow-y: hidden; */
 
-    /* scroll-snap-type: x;
-    scroll-margin-inline-start: 50px; */
     scroll-snap-type: x mandatory;
     scroll-padding-inline-start: 120px;
-
+    scroll-padding-inline-end: 120px;
     white-space: nowrap;
 }
 
@@ -588,21 +587,31 @@ header div ul span {
 }
 
 .experience-card {
+    
     display: flex;
     justify-content: space-between;
     box-shadow: -1px 0px 16px 0px #0000001A;
     border-radius: 10px;
     padding: 20px;
     width: 49%;
-    padding-right: 130px;
+    /* padding-right: 130px; */
     /* text-align: left; */
 
     gap: 30px;
 }
+.company-logo{
+    flex: 1;
+
+}
+
+.company{
+    flex: 1;
+}
 
 .company-logo img {
-    width: 170px;
-    height: auto;
+    
+    width: 100%;
+    height: 80px;
     margin-bottom: 2px;
 }
 
@@ -627,7 +636,7 @@ header div ul span {
 }
 
 .company-logo button {
-    width: 180px;
+    width: 100%;
 }
 
 
