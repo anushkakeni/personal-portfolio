@@ -250,12 +250,15 @@ header div ul span {
 
 .my-intro p {
     padding-bottom: 10px;
-
     color: #555;
     line-height: 2.1rem;
     font-size: 1.8rem;
 }
 
+.resume-button .downloadresume-button a{
+    color: white;
+    text-decoration: none;
+}
 .resume-button .mywork-button {
     background-color: white;
     color: black;
